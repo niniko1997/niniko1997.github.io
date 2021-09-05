@@ -1,7 +1,7 @@
 ---
 title: "Detecting and harmonizing scanner differences in the ABCD study-annual release 1.0"
 collection: publications
-permalink: /publication/adcd_study.md
+permalink: /publication/adcd_study
 excerpt:
 date: 2018-01-01
 venue: 'BioRxiv'
