@@ -1,6 +1,6 @@
 ---
 title: "Parsimony and Machine Learning in Neuroimaging"
-excerpt: "The disparity between an individual’s brain age and their chronological age can be an indicator for various neurological disorders. A previous brain-age prediction study investigated the ability of multimodal brain imaging data to predict age, relying on anatomical and functional brain data to build a machine learning model with over 10,000 features. In our preregistered study, we used anatomical MRI data from the NIMH/NHLBI Data Sharing Project (NNDSP) dataset to compare accuracy in prediction of age for a complex machine learning model with a large number of features to a simple machine learning model with only four features: white matter fraction, grey matter fraction, CSF fraction and intracranial volume, chosen a priori.s<br/><img src='/images/portfolioOne.png'>"
+excerpt: "Using anatomical MRI data from the NIMH/NHLBI Data Sharing Project (NNDSP) to compare accuracy in prediction of age for a complex machine learning model with a large number of features to a simple machine learning model with only four features: white matter fraction, grey matter fraction, CSF fraction and intracranial volume, chosen a priori.<br/><img src='/images/portfolioOne.png'>"
 collection: portfolio
 ---
 
@@ -16,7 +16,7 @@ The modulations and development patterns in adult brains provide the framework f
 
 ![Brain Scan](/images/brainScanTwo.png "Figure 2")
 
-**Figure 2.** On the right, a senior brain is depicted. On the left, a young brain Is depicted
+**Figure 2.** On the right, a senior brain is depicted. On the left, a young brain is depicted
 
 The present study, seeks to predict chronological age with the application of a more parsimonious version of the structural portion of the machine learning model built in Liem et al. without losing predictive ability. This parsimonious model seeks to improve accuracy and generalizability of previous unimodal models while also being computationally inexpensive for predicting brain age. As with other models, the approach to building a machine learning model seeks to balance difficulty of the problem with the complexity of the model. Creating a model that is parsimonious and does not overfit, while also incorporating information relevant to the target prediction is crucial for optimal model performance and generalizability. The goal of parsimony is to match used features to the most salient characteristics that show changes with aging.
 
