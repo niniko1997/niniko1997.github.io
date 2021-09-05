@@ -14,7 +14,7 @@ In response to this need, the California Policy Lab has been working in close co
 
 The pathways into homelessness are dynamic and complicated, as are the pathways to receiving county resources in LA County. Figure 1 displays a generalized overview of the homeless system flow. Individuals in LA County who are at risk of homelessness or are homeless interact with the county system (i.e. by utilizing a public hospital, or even, for instance, by interacting with a stree outreach team). Some of these individuals are assessed to determine their risk and then get allocated potential resources such as food stamps, entrance into job training programs or even housing. 
 
-![Figure 1](/images/hlOne.jpg "Figure 1")
+![Figure 1](/images/hlOne.png "Figure 1")
 **Figure 1.** depics a crude graph of the homeless system flow. (1) The HL Universe includes all individuals in LA who are at risk of homelessness or already homeless. (2) Some of these individuals interact with county agencies, such as the Department of Health Services or the Coordinated Entry System. (3) A subset of those individuals receive assessments such as the Vulnerability Index – Service Prioritization Decision Assistance Prescreen Tool (VI-SPDAT), the results of which are then used to (4) receiving assistance, such as permanent housing. 
 
 The California Policy Lab is working on project at each of these system flow points:
