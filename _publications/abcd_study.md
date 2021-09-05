@@ -6,7 +6,7 @@ excerpt:
 date: 2018-01-01
 venue: 'BioRxiv'
 paperurl: 'https://www.biorxiv.org/content/10.1101/309260v1.abstract'
-citation: 'Dylan M. Nielson, Francisco Pereira, Charles Y. Zheng, Nino Migineishvili, John A. Lee, Adam G. Thomas, Peter A. Bandettini (2018) Detecting and harmonizing scanner differences in the ABCD study - annual release 1.0 *bioRxiv 309260*' 
+citation: 'Dylan M. Nielson, Francisco Pereira, Charles Y. Zheng, Nino Migineishvili, John A. Lee, Adam G. Thomas, Peter A. Bandettini (2018) Detecting and harmonizing scanner differences in the ABCD study - annual release 1.0 bioRxiv 309260' 
 doi: https://doi.org/10.1101/309260
 ---
 
