@@ -1,12 +1,13 @@
 ---
 title: "Parsimony and Machine Learning in Neuroimaging"
 collection: publications
-permalink: /publication/parsimony
+permalink: /publications/parsimony
 excerpt:
 date: *in progress*
 venue:
 paperurl: 'https://osf.io/kdt68'
 citation: 'Nino Migineishvili1, Peter J. Molfese, John A. Lee, Peter A. Bandettini, Phillip Shaw, Adam G. Thomas, and Dylan M. Nielson. (2018). Parsimony and Machine Learning in Neuroimaging'
+doi:
 ---
 
 ## Abstract
