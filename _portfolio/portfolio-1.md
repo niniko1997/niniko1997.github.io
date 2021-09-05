@@ -50,19 +50,26 @@ The simple model attempted to achieve the same predictive ability as the complex
 4. Total intracranial volume, which is simply extracted from the FreeSurfer aseg file
 We built a simple machine learning model with support vector regression on these four features to predict age. This is the model we refer to as the simple model.
 
-![Method](/images/methodOne.png "Figure 3")
-
-**Figure 3.** For each subject in the NNDSP Data, cortical thickness, cortical surface area and subcortical volume feature vectors are extracted along with white matter, grey matter, CSF and intracranial volume measurements. 2) The feature vectors are concatenated and the volume measurements are concatenated to obtain input data. 3) Data is split into training set and a hold out set. 
 
 ![Method](/images/methodTwo.png "Figure 4")
 
-**Figure 4.** 4) The complex model (blue) is built with single modal cortical thickness, cortical surface area and subcortical volume feature vectors with SVR and then stacked with Random Forest. 5) The simple model (green) is an SVR model on the white matter, grey matter, CSF fraction and intracranial volume measurement inputs. 6) All three models are tested on new data, such as the hold out data and the NKI data.
+**Figure 4.** The complex model (blue) is built with single modal cortical thickness, cortical surface area and subcortical volume feature vectors with SVR and then stacked with Random Forest. The simple model (green) is an SVR model on the white matter, grey matter, CSF fraction and intracranial volume measurement inputs. All three models are tested on new data, such as the hold out data, HCP and the NKI data.
 
 We applied the complex and simple model to novel data such as HCP and NKI. The purpose of this step was to test the generalizability of each model by evaluating the performance of each model on unseen data. To conclude the analysis, we performed statistical tests and evaluated the predictive ability of each model on out of sample and novel data. Following the construction of the complex and simple models, we evaluated each of our hypotheses. 
 
 ### Results
 
+In our next set of analyses, we tested the performance of the simple and complex models trained on the NNDSP data against a test (left out) sample from NNDSP.  We found that the performance of the simple model (R<sup>2</sup> = 0.56, CI = (0.47, 0.64)) was not significantly different from the performance of the complex model (R<sup>2</sup> = 0.81, CI = (0.76, 0.85)) on out of sample data. 
 
+With a Wilcoxon Signed Rank Test (statistic = 10031.0, *p* = 0.235, df = 208), we could not conclude a difference between the simple and complex models since the *p*-value is greater than our multiple comparisons corrected alpha of 0.0166. However, the two sample Kolmogorov-Smirnov test (statistic = 0.181, *p* = 0.002), which was performed as an exploratory analysis, indicates that there is a difference in the distributions of prediction errors for the simple and complex models. Figure 5A depicts the distribution of errors in predicting age for the simple (red) and complex (blue) models. Figure 6 depicts the chronological age as it correlates with prediction errors. The absolute error increases for both the simple and complex model with age, suggesting that predictive performance for older individuals declines. 
+
+![Method](/images/resultOne.png "Figure 5")
+
+**Figure 5.** Figure 5A shows the distribution of errors of the simple and complex model trained on the full NNDSP dataset tested on out of sample data. Figure 5B shows the distribution of errors of the simple and complex model trained on subsampled NNDSP tested on out of sample data.
+
+![Method](/images/resultTwo.png "Figure 6")
+
+**Figure 6.** Figure 6A depicts the predicted age as it correlates with the real age of the simple model (R<sup>2</sup> = 0.56, CI = (0.47, 0.64)) and the complex model (R<sup>2</sup> = 0.81, CI = (0.76, 0.86)) trained on the full NNDSP dataset. Figure 6B depicts the chronological age as it correlates with prediction errors of the simple model (R<sup>2</sup> = 0.45, CI = (0.35, 0.54)) and complex model (R<sup>2</sup> = 0.18, CI = (0.09, 0.27)) trained on the full NNDSP dataset tested on out of sample data. Figure 6C shows the correlation between error predictions of the simple model and the complex model (R<sup>2</sup> = 0.37, CI = (0.27, 0.47)) trained on the full NNDSP dataset.
 
 ## Citation
 
