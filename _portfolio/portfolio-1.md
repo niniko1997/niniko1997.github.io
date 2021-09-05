@@ -39,6 +39,7 @@ In this study, we took the structural model designed by Liem et al. but trained 
 1. Cortical thickness at 2,562 vertices for each hemisphere (5,124 vertices total)
 2. Cortical surface area at 2,562 vertices for each hemisphere (5,124 vertices total)
 3. Subcortical volume for 66 structures
+
 The cortical thickness and cortical surface area measurements were randomly reduced from the original 5,124 vertices to 2,562 measurements from the total freesurfer output.  Thus there were a total of 10,314 ([5,124 vertices * 2 measures] + 66 subcortical) input features used to construct four machine learning models:
 1. A unimodal cortical thickness model trained on cortical thickness features via support vector regression
 2. A unimodal cortical surface area model trained on cortical surface area features via support vector regression
