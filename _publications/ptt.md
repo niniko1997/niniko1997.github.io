@@ -4,9 +4,9 @@ collection: publications
 permalink: /publication/ptt
 excerpt: 
 date: 2021-07-01
-venue:
+venue: 'California Policy Lab'
 paperurl: 'https://www.capolicylab.org/wp-content/uploads/2021/08/Preventing-Homelessness-Evidence-Based-Methods-to-Screen-Adults-and-Families-at-Risk-of-Homelessness-in-Los-Angeles.pdf'
-citation: 'TILL VON WACHTER, ROBERT SANTILLANO, JANEY ROUNTREE, MAYA BUENAVENTURA, LANDON GIBSON, APRIL NUNN, NINO MIGINEISHVILI, and ALYSSA ARBOLANTE (2021) Preventing Homelessness: Evidence-Based Methods to Screen Adults and Families at Risk of Homelessness in Los Angeles'
+citation: 'Till von Wachter, Robert Santillano, Janey Rountree, Maya Buenaventura, Landon Gibson, April Nunn, Nino Migineishvili, and Alyssa Arbolante (2021) Preventing Homelessness: Evidence-Based Methods to Screen Adults and Families at Risk of Homelessness in Los Angeles'
 ---
 
 ## Abstract
