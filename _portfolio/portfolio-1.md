@@ -59,3 +59,7 @@ We built a simple machine learning model with support vector regression on these
 Figure 4. 4) The complex model (blue) is built with single modal cortical thickness, cortical surface area and subcortical volume feature vectors with SVR and then stacked with Random Forest. 5) The simple model (green) is an SVR model on the white matter, grey matter, CSF fraction and intracranial volume measurement inputs. 6) All three models are tested on new data, such as the hold out data and the NKI data.
 
 We applied the complex and simple model to novel data such as HCP and NKI. The purpose of this step was to test the generalizability of each model by evaluating the performance of each model on unseen data. To conclude the analysis, we performed statistical tests and evaluated the predictive ability of each model on out of sample and novel data. Following the construction of the complex and simple models, we evaluated each of our hypotheses. 
+
+## Citation
+
+Liem,  F.,  Varoquaux,  G.,  Kynast,  J.,  Beyer,  F.,  Masouleh,  S.  K.,  Huntenburg,  J.  M.,  Lampe,542L.,   Rahim,   M.,   Abraham,   A.,   Craddock,   R.  C.,   Riedel-Heller,   S.,   Luck,   T.,   Loeffler,   M.,543Schroeter,  M.  L.,  Witte,  A.  V.,  Villringer,  A.,  and  Margulies,  D.  S.  (2017).    Predicting brain-544age  from  multimodal  imaging  data  captures  cognitive  impairment.NeuroImage,  148:179  –545188,  ISSN:1053-8119,  DOI:10.1016/j.neuroimage.2016.11.005,http://www.546sciencedirect.com/science/article/pii/S1053811916306103.
