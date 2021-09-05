@@ -10,7 +10,7 @@ redirect_from:
 
 I am a Research Data Analyst at the California Policy Lab, working on issues related to homelessness in Los Angeles County. Our projects include building machine learning models to predict and prevent homelessness among single adults, families and youth as well as validating tools such as the Prevention Targeting Tool and the CES Triage Tool used for resource allocation by county agencies.  
 
-Broadly, I am interested in applying computational and data science methods to the social sciences as well as thinking through ethics in conjunction with the development of machine learning and artificial intelligence. As no computational method exists in a vaccum of scientific objectivity, it's important to think through the implications of how research might impacts different communities.
+Broadly, I am interested in applying computational and data science methods to the social sciences as well as thinking through ethics in conjunction with the development of machine learning and artificial intelligence. As no computational method exists in a vaccum of scientific objectivity, I'm interested in thinking about the various implications of technology on society.
 
 # What's New?
 
