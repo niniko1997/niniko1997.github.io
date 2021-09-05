@@ -57,7 +57,7 @@ We built a simple machine learning model with support vector regression on these
 
 We applied the complex and simple model to novel data such as HCP and NKI. The purpose of this step was to test the generalizability of each model by evaluating the performance of each model on unseen data. To conclude the analysis, we performed statistical tests and evaluated the predictive ability of each model on out of sample and novel data. Following the construction of the complex and simple models, we evaluated each of our hypotheses. 
 
-### Results
+## Results
 
 This is analysis, we tested the performance of the simple and complex models trained on the NNDSP data against a test (left out) sample from NNDSP.  We found that the performance of the simple model (R<sup>2</sup> = 0.56, CI = (0.47, 0.64)) was not significantly different from the performance of the complex model (R<sup>2</sup> = 0.81, CI = (0.76, 0.85)) on out of sample data. 
 
