@@ -1,6 +1,6 @@
 ---
 title: "Parsimony and Machine Learning in Neuroimaging"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/portfolioOne.png'>"
+excerpt: "Predicting cognitive impairment using machine learning methods on MRI images<br/><img src='/images/portfolioOne.png'>"
 collection: portfolio
 ---
 
