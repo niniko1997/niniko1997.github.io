@@ -1,6 +1,6 @@
 ---
 title: "Parsimony and Machine Learning in Neuroimaging"
-excerpt: "Predicting cognitive impairment using machine learning methods on MRI images<br/><img src='/images/portfolioOne.png'>"
+excerpt: "The disparity between an individual’s brain age and their chronological age can be an indicator for various neurological disorders. A previous brain-age prediction study investigated the ability of multimodal brain imaging data to predict age, relying on anatomical and functional brain data to build a machine learning model with over 10,000 features. In our preregistered study, we used anatomical MRI data from the NIMH/NHLBI Data Sharing Project (NNDSP) dataset to compare accuracy in prediction of age for a complex machine learning model with a large number of features to a simple machine learning model with only four features: white matter fraction, grey matter fraction, CSF fraction and intracranial volume, chosen a priori.s<br/><img src='/images/portfolioOne.png'>"
 collection: portfolio
 ---
 
@@ -12,11 +12,11 @@ The modulations and development patterns in adult brains provide the framework f
 
 ![Brain Scan](/images/brainScanOne.png "Figure 1")
 
-Figure 1. On the right, a brain with severe dementia is depicted. On the left, a healthy brain is depicted.
+**Figure 1.** On the right, a brain with severe dementia is depicted. On the left, a healthy brain is depicted.
 
 ![Brain Scan](/images/brainScanTwo.png "Figure 2")
 
-Figure 2. On the right, a senior brain is depicted. On the left, a young brain Is depicted
+**Figure 2.** On the right, a senior brain is depicted. On the left, a young brain Is depicted
 
 The present study, seeks to predict chronological age with the application of a more parsimonious version of the structural portion of the machine learning model built in Liem et al. without losing predictive ability. This parsimonious model seeks to improve accuracy and generalizability of previous unimodal models while also being computationally inexpensive for predicting brain age. As with other models, the approach to building a machine learning model seeks to balance difficulty of the problem with the complexity of the model. Creating a model that is parsimonious and does not overfit, while also incorporating information relevant to the target prediction is crucial for optimal model performance and generalizability. The goal of parsimony is to match used features to the most salient characteristics that show changes with aging.
 
@@ -29,10 +29,6 @@ The present study, seeks to predict chronological age with the application of a 
 3. NKI data: The Rockland sample contains MRI and fMRI brain scans from the Enhanced Nathan Kline Institute. The NKI data represents an independent sample collected from individuals across a broad age range (ages 6-85). The NKI dataset can be downloaded from the [Nathan Kline Institute's online repository](http://fcon_1000.projects.nitrc.org/indi/enhanced/data.html}{http://fcon-1000.projects.nitrc.org/indi/enhanced/data.html).
 
 ## Methods
-
-![Method](/images/methodOne.png "Figure 3")
-
-Figure 3. For each subject in the NNDSP Data, cortical thickness, cortical surface area and subcortical volume feature vectors are extracted along with white matter, grey matter, CSF and intracranial volume measurements. 2) The feature vectors are concatenated and the volume measurements are concatenated to obtain input data. 3) Data is split into training set and a hold out set. 
 
 ### Complex Model
 In this study, we took the structural model designed by Liem et al. but trained it on the NNDSP data instead of the LIFE data. The inputs for the complex model were:
@@ -54,12 +50,20 @@ The simple model attempted to achieve the same predictive ability as the complex
 4. Total intracranial volume, which is simply extracted from the FreeSurfer aseg file
 We built a simple machine learning model with support vector regression on these four features to predict age. This is the model we refer to as the simple model.
 
+![Method](/images/methodOne.png "Figure 3")
+
+**Figure 3.** For each subject in the NNDSP Data, cortical thickness, cortical surface area and subcortical volume feature vectors are extracted along with white matter, grey matter, CSF and intracranial volume measurements. 2) The feature vectors are concatenated and the volume measurements are concatenated to obtain input data. 3) Data is split into training set and a hold out set. 
+
 ![Method](/images/methodTwo.png "Figure 4")
 
-Figure 4. 4) The complex model (blue) is built with single modal cortical thickness, cortical surface area and subcortical volume feature vectors with SVR and then stacked with Random Forest. 5) The simple model (green) is an SVR model on the white matter, grey matter, CSF fraction and intracranial volume measurement inputs. 6) All three models are tested on new data, such as the hold out data and the NKI data.
+**Figure 4.** 4) The complex model (blue) is built with single modal cortical thickness, cortical surface area and subcortical volume feature vectors with SVR and then stacked with Random Forest. 5) The simple model (green) is an SVR model on the white matter, grey matter, CSF fraction and intracranial volume measurement inputs. 6) All three models are tested on new data, such as the hold out data and the NKI data.
 
 We applied the complex and simple model to novel data such as HCP and NKI. The purpose of this step was to test the generalizability of each model by evaluating the performance of each model on unseen data. To conclude the analysis, we performed statistical tests and evaluated the predictive ability of each model on out of sample and novel data. Following the construction of the complex and simple models, we evaluated each of our hypotheses. 
 
+### Results
+
+
+
 ## Citation
 
-Liem,  F.,  Varoquaux,  G.,  Kynast,  J.,  Beyer,  F.,  Masouleh,  S.  K.,  Huntenburg,  J.  M.,  Lampe,542L.,   Rahim,   M.,   Abraham,   A.,   Craddock,   R.  C.,   Riedel-Heller,   S.,   Luck,   T.,   Loeffler,   M.,543Schroeter,  M.  L.,  Witte,  A.  V.,  Villringer,  A.,  and  Margulies,  D.  S.  (2017).    Predicting brain-544age  from  multimodal  imaging  data  captures  cognitive  impairment.NeuroImage,  148:179  –545188,  ISSN:1053-8119,  DOI:10.1016/j.neuroimage.2016.11.005,http://www.546sciencedirect.com/science/article/pii/S1053811916306103.
+Liem, F., Varoquaux, G., Kynast, J., Beyer, F., Masouleh, S. K., Huntenburg, J. M., Lampe,542L., Rahim, M., Abraham, A., Craddock, R. C., Riedel-Heller, S., Luck, T., Loeffler, M., Schroeter, M. L., Witte, A. V., Villringer, A., and  Margulies, D. S. (2017). Predicting brain-544age  from  multimodal  imaging  data  captures  cognitive  impairment.NeuroImage, 148:179  –545188,  ISSN:1053-8119, DOI:10.1016/j.neuroimage.2016.11.005,http://www.546sciencedirect.com/science/article/pii/S1053811916306103.
