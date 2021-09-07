@@ -83,12 +83,12 @@
       line-height: 1.5;
       text-align: center;
       text-decoration: none;
-      color: mix(#fff, $lavender, 25%);
+      color: mix(#fff, $gray, 25%);
       border: 1px solid $light-gray;
       border-radius: 0;
 
       &:hover {
-        color: $dark-lavender;
+        color: $link-hover;
       }
 
       &.current {
@@ -97,7 +97,7 @@
       }
 
       &.disabled {
-        color: mix(#fff, $lavender, 75%);
+        color: mix(#fff, $gray, 75%);
         pointer-events: none;
         cursor: not-allowed;
       }
@@ -181,11 +181,11 @@
     display: block;
     margin: 0 1rem;
     padding: 0.5rem 0;
-    color: $masthead-link-color;
+    color: $light-lavender;
     text-decoration: none;
 
     &:hover {
-      color: $masthead-link-color-hover;
+      color: $lavender;
     }
   }
 
