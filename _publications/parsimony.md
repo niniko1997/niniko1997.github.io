@@ -2,7 +2,7 @@
 title: "Parsimony and Machine Learning in Neuroimaging"
 collection: publications
 permalink: /publication/parsimony
-excerpt:
+excerpt: 'In our preregistered study, we used anatomical MRI data from the NIMH/NHLBI Data Sharing Project (NNDSP) dataset to compare accuracy in prediction of age for a complex machine learning model with a large number of features to a simple machine learning model with only four features: white matter fraction, grey matter fraction, CSF fraction and intracranial volume, chosen a priori.'
 date: 2021-09-01
 venue: PeerJ
 paperurl: 'https://osf.io/kdt68'
