@@ -2,7 +2,7 @@
 title: "Preventing Homelessness: Evidence-Based Methods to Screen Adults and Families at Risk of Homelessness in Los Angeles"
 collection: publications
 permalink: /publication/ptt
-excerpt: 
+excerpt: 'We evaluate screening surveys called Prevention Targeting Tools (PTTs) currently used by homelessness prevention service providers in the City and County of Los Angeles.'
 date: 2021-07-01
 venue: 'California Policy Lab'
 paperurl: 'https://www.capolicylab.org/wp-content/uploads/2021/08/Preventing-Homelessness-Evidence-Based-Methods-to-Screen-Adults-and-Families-at-Risk-of-Homelessness-in-Los-Angeles.pdf'
