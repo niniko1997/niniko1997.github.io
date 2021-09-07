@@ -2,7 +2,7 @@
 title: "Detecting and harmonizing scanner differences in the ABCD study-annual release 1.0"
 collection: publications
 permalink: /publication/adcd_study
-excerpt:
+excerpt: 'In this manuscript, we have explored scanner-related differences in the dataset recently released by the Adolescent Brain Cognitive Development (ABCD) project, a multi-site, longitudinal study of children age 9-10. We demonstrate that scanner manufacturer, model, as well as the individual scanner itself, are detectable in the resting and task-based fMRI results of the ABCD dataset.'
 date: 2018-01-01
 venue: 'BioRxiv'
 paperurl: 'https://www.biorxiv.org/content/10.1101/309260v1.abstract'
