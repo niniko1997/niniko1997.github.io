@@ -83,12 +83,12 @@
       line-height: 1.5;
       text-align: center;
       text-decoration: none;
-      color: mix(#fff, $gray, 25%);
+      color: mix(#fff, $lavender, 25%);
       border: 1px solid $light-gray;
       border-radius: 0;
 
       &:hover {
-        color: $link-color-hover;
+        color: $dark-lavender;
       }
 
       &.current {
@@ -97,7 +97,7 @@
       }
 
       &.disabled {
-        color: mix(#fff, $gray, 75%);
+        color: mix(#fff, $lavender, 75%);
         pointer-events: none;
         cursor: not-allowed;
       }
