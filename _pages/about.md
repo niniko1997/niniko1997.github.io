@@ -12,6 +12,8 @@ I am a Research Data Analyst at the California Policy Lab, working on issues rel
 
 Broadly, I am interested in applying computational and data science methods to the social sciences as well as thinking through ethics in conjunction with the development of machine learning and artificial intelligence. As no computational method exists in a vaccum of scientific objectivity, I'm interested in thinking about the various implications of technology on society.
 
+![Measuring Complexity](/images/measuringComplexity.png "Graphic Measuring Complexity")
+
 # About Me
 
 I am planning on applying to PhD programs this 2021 cycle. Wish me luck!
