@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "Research Interests"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -12,6 +12,6 @@ I am a Research Data Analyst at the California Policy Lab, working on issues rel
 
 Broadly, I am interested in applying computational and data science methods to the social sciences as well as thinking through ethics in conjunction with the development of machine learning and artificial intelligence. As no computational method exists in a vaccum of scientific objectivity, I'm interested in thinking about the various implications of technology on society.
 
-# What's New?
+# About Me
 
 I am planning on applying to PhD programs this 2021 cycle. Wish me luck!
