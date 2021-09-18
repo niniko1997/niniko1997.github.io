@@ -1,6 +1,6 @@
 ---
 title: "Parsimony and Machine Learning in Neuroimaging"
-excerpt: "Using anatomical MRI data from the NIMH/NHLBI Data Sharing Project (NNDSP) to compare accuracy in prediction of age for a complex machine learning model with a large number of features to a simple machine learning model with only four features: white matter fraction, grey matter fraction, CSF fraction and intracranial volume, chosen a priori.<br/><br/><img src='/images/brain_graphic.png'>"
+excerpt: "Using anatomical MRI data from the NIMH/NHLBI Data Sharing Project (NNDSP) to compare accuracy in prediction of age for a complex machine learning model with a large number of features to a simple machine learning model with only four features: white matter fraction, grey matter fraction, CSF fraction and intracranial volume, chosen a priori.<br/><br/><img src='/images/brain_graphic_light.png'>"
 collection: portfolio
 ---
 
