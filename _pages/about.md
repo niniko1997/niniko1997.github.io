@@ -16,6 +16,10 @@ Broadly, I am interested in applying computational and data science methods to t
 
 # About Me
 
-I was originally born in Georgia, but also lived in Austria before moving to the U.S. I have a deep love for languages and culture from having lived in different countries (if I could have a superpower, it would be speaking all the languages of the world fluently). 
+I was originally born in Georgia, but also lived in Austria before moving to the U.S. I have a deep love for languages and culture from having lived in different countries (if I could have a superpower, it would be speaking all the languages of the world fluently). It also instilled in me a tantalizing wonderlust and a yearn to constantly travel. 
+
+When I am not doing research, you can find me going on long walks or reading quietly with a hot mug of chamomile tea. My friend even suggested I get a tea mug tattoo, because of how much of it I drink (even in the sweltering heat of summer). 
 
 ![About Me - Georgia](/images/aboutme.png "About Me - Georgia")
+
+
