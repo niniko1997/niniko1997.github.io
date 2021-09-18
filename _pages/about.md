@@ -16,4 +16,6 @@ Broadly, I am interested in applying computational and data science methods to t
 
 # About Me
 
-I am planning on applying to PhD programs this 2021 cycle. Wish me luck!
+I was originally born in Georgia, but also lived in Austria before moving to the U.S. I have a deep love for languages and culture from having lived in different countries (if I could have a superpower, it would be speaking all the languages of the world fluently). 
+
+![About Me - Georgia](/images/aboutme.png "About Me - Georgia")
