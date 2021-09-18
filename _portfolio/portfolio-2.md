@@ -1,6 +1,6 @@
 ---
 title: "Homelessness in LA County"
-excerpt: "Working with state and local agencies to develop and evaluate evidence-based solutions to homelessness. The California Policy Lab leverages expertise in data integration, predictive analytics, screening tools, and program evaluation to share real-time insights and build empirical evidence to improve outcomes for homeless individuals and families.<br/><br/><img src='/images/la_graphic.png'>"
+excerpt: "Working with state and local agencies to develop and evaluate evidence-based solutions to homelessness. The California Policy Lab leverages expertise in data integration, predictive analytics, screening tools, and program evaluation to share real-time insights and build empirical evidence to improve outcomes for homeless individuals and families.<br/><br/><img src='/images/la_graphic_light.png'>"
 collection: portfolio
 ---
 
