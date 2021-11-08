@@ -1,6 +1,6 @@
 ---
 title: "Twitch Culture Research"
-excerpt: "Deploying both quantitative and qualitative methods to analyze the dynamics of Twitch communication and their effects for abusive language use in community gatekeeping. <br/><br/><img src='/images/la_graphic_light.png'>"
+excerpt: "Deploying both quantitative and qualitative methods to analyze the dynamics of Twitch communication and their effects for abusive language use in community gatekeeping. <br/><br/><img src='/images/PortfolioGraphicsTwitch.png'>"
 collection: portfolio
 ---
 
