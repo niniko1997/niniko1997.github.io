@@ -31,7 +31,7 @@ Accurately measuring homelessness as an outcome is extremely challenging due to 
 To help better understand the outcome, we have performed descriptive work on the data and documented the homelessness flow. Thus, when thinking about a proxy measure for homelessness, we've also looked at what adverse events in the future we would like to prevent. 
 
 ### Machine Learning and Modeling
-The main challenge was transforming longitudinal service utilization data into numerical risk factors that could be fed to a machine learning model. In our model, for instance, we periodized service utilization into recent (within the last six months) and earlier (more than six months ago) features. Additionally, we converted medical diagnosis data into risk scores by merging our data with the Charlson and Elixhauser indexes [7].
+The main challenge was transforming longitudinal service utilization data into numerical risk factors that could be fed to a machine learning model. In our model, for instance, we periodized service utilization into recent (within the last six months) and earlier (more than six months ago) features. Additionally, we converted medical diagnosis data into risk scores by merging our data with the Charlson and Elixhauser indexes.
 
 ### Sources
 
