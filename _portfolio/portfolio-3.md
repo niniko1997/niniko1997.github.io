@@ -6,7 +6,7 @@ collection: portfolio
 
 ## Overview 
 
-In collaboration with researchers at the NARA Institute of Science and Technology (NAIST) in Japan, we are developing a new research plan to study abusive language and gatekeeping in Twitch streams.
+With researchers at the NARA Institute of Science and Technology (NAIST) in Japan, I am developing a new research plan to study abusive language and gatekeeping in Twitch streams.
 In the fall of 2021, we were awarded the SICSS grant to pursue this research. 
 
 ## Abstract
